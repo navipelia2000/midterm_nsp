@@ -1,0 +1,915 @@
+<!doctype html>
+<html ng-class class="no-js" lang="en" dir="ltr">
+  <head>
+    <script src="js/vendor/angular.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNS world</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/datatables/datatables.min.css"/>
+ <script type="text/javascript" src="js/vendor/datatables.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css">
+
+<script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+  </head>
+  <body>
+    <!-- *Begin nav -->
+    <nav class="top-bar topbar-responsive">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="#"><strong>PNS</strong></a>
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li><a href="#">Home</a></li>
+            <li><a href="about/index.html">About</a></li>
+            <li><a href="services/index.html">Services</a></li>
+            <li><a href="works/index.hmtl">Works</a></li>
+            <li><a href="news/index.html">News</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+            <li>
+              <button type="button" class="button hollow topbar-responsive-button">Categories</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- *End nav -->
+    <!-- *Begin Header -->
+
+    <!-- *End Header -->
+    <!-- *DataTable Example-->
+
+<div>
+<table  <table id="example" class="display" cellspacing="0" width="100%"
+summary="Electrical and Computer Engineering Technology final exams listing">
+<thead>
+<tr><th>Subject</th><th>CRS#</th><th>Sect</th><th>Class#</th><th>Exam Day/Date</th><th>Start Time</th><th>End Time</th><th>Exam Room</th><th>Instructor Name</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>ET</td>
+<td>110</td>
+<td>C13B</td>
+<td>38692</td>
+<td>Mon, 05/21/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>S-223</td>
+<td>Buoncora</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>110</td>
+<td>F24</td>
+<td>38693</td>
+<td>Tue, 05/22/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>T-T21</td>
+<td>Wu</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>110</td>
+<td>F24B</td>
+<td>38691</td>
+<td>Tue, 05/22/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>S-222</td>
+<td>Schwartz</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>110</td>
+<td>M1</td>
+<td>38694</td>
+<td>Mon, 05/21/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T03B</td>
+<td>Mazzella</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>140</td>
+<td>D13</td>
+<td>38702</td>
+<td>Mon, 05/21/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>S-224</td>
+<td>Stroumbakis</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>210</td>
+<td>C13</td>
+<td>38707</td>
+<td>Mon, 05/21/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>S-224</td>
+<td>Wu</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>210</td>
+<td>F24</td>
+<td>38708</td>
+<td>Tue, 05/22/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>S-223</td>
+<td>Buoncora</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>220</td>
+<td>C24</td>
+<td>38713</td>
+<td>Tue, 05/22/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T22</td>
+<td>Gayle</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>320</td>
+<td>C1</td>
+<td>38829</td>
+<td>Mon, 05/21/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T13</td>
+<td>Namdar</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>350</td>
+<td>C1</td>
+<td>66169</td>
+<td>Mon, 05/21/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T13</td>
+<td>Namdar</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>350</td>
+<td>M2</td>
+<td>38715</td>
+<td>Tue, 05/22/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T13</td>
+<td>Leccese</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>375</td>
+<td>IND</td>
+<td>38797</td>
+<td>Wed, 05/23/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>T-T13</td>
+<td>Buoncora</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>481</td>
+<td>C2C</td>
+<td>40923</td>
+<td>Wed, 05/23/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>T-T22</td>
+<td>Victolo</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>504</td>
+<td>C1</td>
+<td>38831</td>
+<td>Mon, 05/21/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T14</td>
+<td>Mangra</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>504</td>
+<td>C4</td>
+<td>41184</td>
+<td>Thu, 05/24/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T14</td>
+<td>Mangra</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>504</td>
+<td>C5</td>
+<td>38728</td>
+<td>Fri, 05/18/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T14</td>
+<td>Sitbon</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>504</td>
+<td>H3</td>
+<td>38729</td>
+<td>Wed, 05/23/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>T-T14</td>
+<td>Mangra</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>504</td>
+<td>M4</td>
+<td>38730</td>
+<td>Mon, 05/21/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T14</td>
+<td>Ducroiset</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>505</td>
+<td>F24</td>
+<td>38734</td>
+<td>Tue, 05/22/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>T-T19</td>
+<td>Yuster</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>540</td>
+<td>D13</td>
+<td>38743</td>
+<td>Mon, 05/21/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>T-T21</td>
+<td>Seo</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>540</td>
+<td>D13B</td>
+<td>40894</td>
+<td>Mon, 05/21/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>S-223</td>
+<td>Schwartz</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>540</td>
+<td>G24</td>
+<td>38744</td>
+<td>Tue, 05/22/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>S-224</td>
+<td>Seo</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>540</td>
+<td>G24B</td>
+<td>40896</td>
+<td>Tue, 05/22/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>S-223</td>
+<td>Wu</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>540</td>
+<td>M2</td>
+<td>38745</td>
+<td>Tue, 05/22/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T03B</td>
+<td>Zephyrine</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>560</td>
+<td>D24</td>
+<td>38751</td>
+<td>Tue, 05/22/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>T-T22</td>
+<td>Birchfield</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>560</td>
+<td>M2</td>
+<td>38752</td>
+<td>Tue, 05/22/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T22</td>
+<td>Novak</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>570</td>
+<td>B2</td>
+<td>38799</td>
+<td>Tue, 05/22/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>S-118</td>
+<td>Darwish</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>570</td>
+<td>C6</td>
+<td>55173</td>
+<td>Sat, 05/19/2018</td>
+<td>9:30 AM</td>
+<td>11:30 AM</td>
+<td>S-118</td>
+<td>Crinnion</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>570</td>
+<td>F1</td>
+<td>66168</td>
+<td>Mon, 05/21/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>T-T02</td>
+<td>Lawrence</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>570</td>
+<td>J1</td>
+<td>38790</td>
+<td>Mon, 05/21/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>S-118</td>
+<td>Metaxas</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>570</td>
+<td>J2</td>
+<td>41186</td>
+<td>Tue, 05/22/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>S-118</td>
+<td>An</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>570</td>
+<td>J4</td>
+<td>68004</td>
+<td>Thu, 05/24/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>T-T03A</td>
+<td>Salayka</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>570</td>
+<td>M1</td>
+<td>59703</td>
+<td>Mon, 05/21/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>S-118</td>
+<td>Banho</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>570</td>
+<td>M4</td>
+<td>38755</td>
+<td>Thu, 05/24/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T02</td>
+<td>Wu</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>575</td>
+<td>C2</td>
+<td>41187</td>
+<td>Tue, 05/22/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T19</td>
+<td>Metaxas</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>575</td>
+<td>D1</td>
+<td>57560</td>
+<td>Mon, 05/21/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>T-T19</td>
+<td>Sun</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>575</td>
+<td>H2</td>
+<td>40699</td>
+<td>Tue, 05/22/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>T-T03A</td>
+<td>Darwish</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>575</td>
+<td>K1</td>
+<td>38793</td>
+<td>Mon, 05/21/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>T-T03A</td>
+<td>Trowbridge</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>575</td>
+<td>M1</td>
+<td>41189</td>
+<td>Mon, 05/21/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>S-116</td>
+<td>Crinnion</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>704</td>
+<td>B2</td>
+<td>38757</td>
+<td>Tue, 05/22/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T24</td>
+<td>Drini Prelvukaj</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>704</td>
+<td>C1</td>
+<td>38756</td>
+<td>Mon, 05/21/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T24</td>
+<td>Kim</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>704</td>
+<td>H1</td>
+<td>38758</td>
+<td>Mon, 05/21/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>T-T14</td>
+<td>Darwish</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>704</td>
+<td>J2</td>
+<td>41191</td>
+<td>Tue, 05/22/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>T-T24</td>
+<td>Szabo</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>704</td>
+<td>M1</td>
+<td>38759</td>
+<td>Mon, 05/21/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T24</td>
+<td>Stair</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>704</td>
+<td>M2B</td>
+<td>67789</td>
+<td>Tue, 05/22/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T24</td>
+<td>Gayle</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>705</td>
+<td>C5</td>
+<td>41193</td>
+<td>Fri, 05/18/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T24</td>
+<td>Drini Prelvukaj</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>705</td>
+<td>M2</td>
+<td>53729</td>
+<td>Tue, 05/22/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T14</td>
+<td>Toyota</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>710</td>
+<td>B1</td>
+<td>38767</td>
+<td>Mon, 05/21/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T19</td>
+<td>Nystrom</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>710</td>
+<td>B2</td>
+<td>38766</td>
+<td>Tue, 05/22/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T03A</td>
+<td>Lawrence</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>710</td>
+<td>H1</td>
+<td>38764</td>
+<td>Mon, 05/21/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>T-T19</td>
+<td>Lachter</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>710</td>
+<td>K1</td>
+<td>38765</td>
+<td>Mon, 05/21/2018</td>
+<td>4:45 PM</td>
+<td>6:45 PM</td>
+<td>T-T19</td>
+<td>Lachter</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>710</td>
+<td>M2</td>
+<td>38792</td>
+<td>Tue, 05/22/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T19</td>
+<td>Banho</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>712</td>
+<td>BT1</td>
+<td>38777</td>
+<td>Mon, 05/21/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>T-T03A</td>
+<td>Sun</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>712</td>
+<td>BT2</td>
+<td>41195</td>
+<td>Tue, 05/22/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>S-118</td>
+<td>Kueper</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>712</td>
+<td>D2</td>
+<td>38776</td>
+<td>Tue, 05/22/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>T-T03A</td>
+<td>Kueper</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>712</td>
+<td>M1</td>
+<td>41196</td>
+<td>Mon, 05/21/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T03A</td>
+<td>Ramirez</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>714</td>
+<td>D13</td>
+<td>38778</td>
+<td>Mon, 05/21/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>T-T14</td>
+<td>Kueper</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>716</td>
+<td>H2</td>
+<td>64769</td>
+<td>Tue, 05/22/2018</td>
+<td>2:30 PM</td>
+<td>4:30 PM</td>
+<td>T-T19</td>
+<td>Sun</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>718</td>
+<td>B1</td>
+<td>38795</td>
+<td>Mon, 05/21/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T03A</td>
+<td>Lawrence</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>718</td>
+<td>BT1</td>
+<td>41201</td>
+<td>Mon, 05/21/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>T-T03A</td>
+<td>Nystrom</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>718</td>
+<td>BT2</td>
+<td>41202</td>
+<td>Tue, 05/22/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>S-118</td>
+<td>Lawrence</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>725</td>
+<td>E24</td>
+<td>59420</td>
+<td>Tue, 05/22/2018</td>
+<td>10:00 AM</td>
+<td>12:00 PM</td>
+<td>T-T24</td>
+<td>Darwish</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>725</td>
+<td>F24</td>
+<td>38836</td>
+<td>Tue, 05/22/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>T-T24</td>
+<td>Szabo</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>821</td>
+<td>B4</td>
+<td>38780</td>
+<td>Thu, 05/24/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T19</td>
+<td>Kromah</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>841</td>
+<td>PNET</td>
+<td>38781</td>
+<td>Mon, 05/21/2018</td>
+<td>12:15 PM</td>
+<td>2:15 PM</td>
+<td>S-118</td>
+<td>Seo</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>841</td>
+<td>PNT2</td>
+<td>38782</td>
+<td>Mon, 05/21/2018</td>
+<td>6:10 PM</td>
+<td>8:10 PM</td>
+<td>T-T13</td>
+<td>Al Mahboob</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>841</td>
+<td>PNT3</td>
+<td>38840</td>
+<td>Thu, 05/24/2018</td>
+<td>7:45 AM</td>
+<td>9:45 AM</td>
+<td>T-T13</td>
+<td>Davis</td>
+</tr>
+</tbody>
+</table>
+</div>
+    <!-- End DataTable Example-->
+    <!-- *Begin Content -->
+
+    <!doctype html>
+    <html ng-app>
+      <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+      </head>
+      <body>
+        <div>
+          <label>Name:</label>
+          <input type="text" ng-model="yourName" placeholder="Enter a name here">
+          <hr>
+          <h1>Hello {{yourName}}!</h1>
+        </div>
+      </body>
+    </html>
+
+    <!-- *End Content -->
+    <!-- *Begin Footer -->
+
+    <footer class="marketing-site-footer">
+      <div class="row medium-unstack">
+        <div class="medium-4 columns">
+          <h4 class="marketing-site-footer-name">Yeti Snowcone</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.</p>
+          <ul class="menu marketing-site-footer-menu-social simple">
+            <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+             <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+             <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="medium-4 columns">
+           <h4 class="marketing-site-footer-title">Contact Info</h4>
+          <div class="marketing-site-footer-block">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <p>100 W Rincon<br>San Francisco, CA 94015</p>
+          </div>
+          <div class="marketing-site-footer-block">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>1 (800) 555-5555</p>
+          </div>
+          <div class="marketing-site-footer-block">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <p>yetirules@fakeemail.com</p>
+          </div>
+        </div>
+        <div class="medium-4 columns">
+          <h4 class="marketing-site-footer-title">Instagram</h4>
+          <div class="row small-up-3">
+            <div class="column column-block">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+            <div class="column column-block">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+            <div class="column column-block">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+            <div class="column column-block">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+            <div class="column column-block">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+            <div class="column column-block">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="marketing-site-footer-bottom">
+        <div class="row large-unstack align-middle">
+          <div class="column">
+            <p>&copy; 2017 No rights reserved</p>
+          </div>
+          <div class="column">
+            <ul class="menu marketing-site-footer-bottom-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- *End Footer -->
+    <!-- *Begin nav -->
+
+    <!-- *Begin nav -->
+    <!-- *Begin nav -->
+
+    <!-- *Begin nav -->
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/vendor/datatables.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('#example').DataTable();
+    } );
+    </script>
+  </body>
+</html>
